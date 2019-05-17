@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const graphqlHttp = require("express-grapql");
+const graphqlHttp = require("express-graphql");
 
 const graphqlSchema = require("./graphql/schema");
 const graphqlResolvers = require("./graphql/resolvers");
@@ -27,3 +27,5 @@ app.use(
     graphiql: true
   })
 );
+
+app.listen(3000);
