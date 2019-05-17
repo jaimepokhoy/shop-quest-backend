@@ -2,7 +2,7 @@
   "name": "shop-quest-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/tical29/shop-quest-backend/issues"
   },
-  "homepage": "https://github.com/tical29/shop-quest-backend#readme"
+  "homepage": "https://github.com/tical29/shop-quest-backend#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "body-parser": "^1.19.0",
+    "bson-ext": "^2.0.2",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
 }
